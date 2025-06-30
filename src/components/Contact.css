@@ -1,0 +1,28 @@
+/* src/components/Contact.css */
+
+/* .contact-section {
+  background-color: #ffffff;
+} */
+
+.contact-section h2 {
+  color: #1e1e2f;
+}
+
+.contact-section p {
+  font-size: 1rem;
+}
+
+.contact-section .btn-success {
+  background-color: #25d366;
+  border: none;
+}
+
+.contact-section .btn-success:hover {
+  background-color: #1ebe57;
+}
+
+.contact-section p.custom-text {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.05rem;
+  color: #666;
+}

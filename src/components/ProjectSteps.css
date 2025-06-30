@@ -1,0 +1,66 @@
+.project-steps-section {
+  background-image: url("../assets/bg-pattern.png"); /* غير الاسم لو مختلف */
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.project-steps-section h2 {
+  font-weight: 800;
+  color: #1e1e2f;
+}
+
+.step-item {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 198, 167, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.step-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 198, 167, 0.15);
+}
+
+.step-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #00c6a7;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 198, 167, 0.3);
+}
+
+.project-steps-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-steps-section ul li::before {
+  content: "✔";
+  margin-left: 0.5rem;
+  color: #00c6a7;
+}
+
+.project-steps-section ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .step-item {
+    margin-bottom: 20px;
+  }
+}

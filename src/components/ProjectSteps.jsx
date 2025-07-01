@@ -56,7 +56,6 @@ const ProjectSteps = () => {
           ))}
         </div>
 
-        {/* البيانات المطلوبة */}
         <div
           className="bg-white rounded p-4 shadow-sm"
           dir="rtl"

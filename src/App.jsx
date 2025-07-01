@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -14,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
-    AOS.refresh(); // لإعادة تفعيل التأثير بعد تغيير الصفحة
+    AOS.refresh();
   }, [location.pathname]);
 
   return (

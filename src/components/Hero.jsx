@@ -1,8 +1,6 @@
-// src/components/Hero.jsx
-
 import React from "react";
 import "./Hero.css";
-import heroImg from "../assets/hero-illustration.jpg"; // تأكد من وجود الصورة
+import heroImg from "../assets/hero-illustration.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -10,7 +8,6 @@ const Hero = () => {
     <header className="hero-section py-5">
       <div className="container">
         <div className="row align-items-center">
-          {/* النص */}
           <div className="col-md-6 text-white text-center text-md-start">
             <h1
               data-aos="fade-right"
@@ -56,7 +53,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* الصورة */}
           <div className="col-md-6 text-center mt-4 mt-md-0" data-aos="zoom-in">
             <img
               src={heroImg}

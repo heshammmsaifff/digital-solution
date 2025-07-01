@@ -10,8 +10,7 @@ const Footer = () => {
     >
       <div className="container">
         <p className="mb-1">
-          &copy; {new Date().getFullYear()} Digital Solutions. جميع الحقوق
-          محفوظة.
+          &copy; {new Date().getFullYear()} Sprint Code. جميع الحقوق محفوظة.
         </p>
         <p className="small">تصميم وتطوير بواسطة فريقنا المحترف</p>
       </div>

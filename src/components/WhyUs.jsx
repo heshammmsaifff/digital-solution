@@ -1,5 +1,3 @@
-// src/components/WhyUs.jsx
-
 import React from "react";
 import "./WhyUs.css";
 

@@ -13,15 +13,13 @@ const Navbar = () => {
       data-aos="fade-down"
       data-aos-duration="500"
     >
-      {/* اللوجو */}
       <Link className="navbar-brand fw-bold" to="/">
         <div className="d-flex flex-column">
-          <span style={{ color: "#00c6a7" }}>Digital Solutions</span>
+          <span style={{ color: "#00c6a7" }}>Sprint Code</span>
           <small>مواقع - تطبيقات - دعم فني</small>
         </div>
       </Link>
 
-      {/* زر التوجّل للموبايل */}
       <button
         className="navbar-toggler"
         type="button"
@@ -32,7 +30,6 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarNav">
-        {/* القائمة اليمين: الرئيسية فقط */}
         <ul className="navbar-nav me-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/">
@@ -41,7 +38,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* القائمة الشمال: باقي العناصر */}
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/plans">
@@ -54,7 +50,6 @@ const Navbar = () => {
             </Link>
           </li>
 
-          {/* عناصر تظهر فقط في الصفحة الرئيسية */}
           {isHome && (
             <>
               <li className="nav-item">

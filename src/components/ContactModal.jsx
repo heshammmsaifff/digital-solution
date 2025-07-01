@@ -1,4 +1,3 @@
-// ContactModal.jsx
 import React from "react";
 import "./ContactModal.css";
 

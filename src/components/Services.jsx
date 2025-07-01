@@ -78,7 +78,9 @@ const Services = () => {
               <div className="card service-card h-100 shadow-sm text-center">
                 <div className="card-body">
                   <i className={`${service.icon} fa-2x mb-3 text-primary`}></i>
-                  <h5 className="card-title fw-bold">{service.title}</h5>
+                  <h5 dir="rtl" className="card-title fw-bold">
+                    {service.title}
+                  </h5>
                   <p dir="rtl" className="card-text">
                     {service.description}
                   </p>

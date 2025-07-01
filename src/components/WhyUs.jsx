@@ -27,8 +27,8 @@ const WhyUs = () => {
           >
             <div className="whyus-card p-4 shadow-sm">
               <i className="fas fa-bolt fa-2x mb-3 text-primary"></i>
-              <h5>سرعة التنفيذ</h5>
-              <p>نسلم موقعك في وقت قياسي بدون ما نضحّي بالجودة.</p>
+              <h5 dir="rtl">سرعة التنفيذ</h5>
+              <p dir="rtl">نسلم موقعك في وقت قياسي بدون ما نضحّي بالجودة.</p>
             </div>
           </div>
 
@@ -39,8 +39,10 @@ const WhyUs = () => {
           >
             <div className="whyus-card p-4 shadow-sm">
               <i className="fas fa-mobile-alt fa-2x mb-3 text-success"></i>
-              <h5>تصميم متجاوب</h5>
-              <p>موقعك هيشتغل بشكل ممتاز على الموبايل والتابلت والكمبيوتر.</p>
+              <h5 dir="rtl">تصميم متجاوب</h5>
+              <p dir="rtl">
+                موقعك هيشتغل بشكل ممتاز على الموبايل والتابلت والكمبيوتر.
+              </p>
             </div>
           </div>
 
@@ -51,8 +53,8 @@ const WhyUs = () => {
           >
             <div className="whyus-card p-4 shadow-sm">
               <i className="fas fa-headset fa-2x mb-3 text-danger"></i>
-              <h5>دعم فني سريع</h5>
-              <p>أي مشكلة بتتحل فورًا من خلال قنوات تواصل مباشرة.</p>
+              <h5 dir="rtl">دعم فني سريع</h5>
+              <p dir="rtl">أي مشكلة بتتحل فورًا من خلال قنوات تواصل مباشرة.</p>
             </div>
           </div>
         </div>

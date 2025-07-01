@@ -1,17 +1,14 @@
 /* src/components/Services.css */
 
-/* .services-section {
-  background-color: #f8f9fa;
-} */
-
 .service-card {
   border: none;
+  cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
 .service-card .card-title {
@@ -21,14 +18,4 @@
 .service-card .card-text {
   color: #555;
   font-size: 0.95rem;
-}
-
-.service-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
-.service-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
 }

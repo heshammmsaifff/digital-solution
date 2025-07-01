@@ -5,7 +5,7 @@ const steps = [
   {
     icon: "bi-chat-dots-fill",
     title: "1. تواصل معنا",
-    desc: "من خلال الواتساب أو الفورم أو الإيميل",
+    desc: "من خلال الواتساب أو الإيميل",
   },
   {
     icon: "bi-lightbulb-fill",
@@ -47,8 +47,10 @@ const ProjectSteps = () => {
                 <div className="step-icon mb-3">
                   <i className={`bi ${step.icon}`}></i>
                 </div>
-                <h5>{step.title}</h5>
-                <p className="text-muted">{step.desc}</p>
+                <h5 dir="rtl">{step.title}</h5>
+                <p dir="rtl" className="text-muted">
+                  {step.desc}
+                </p>
               </div>
             </div>
           ))}

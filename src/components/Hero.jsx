@@ -22,9 +22,9 @@ const Hero = () => {
             </p>
 
             <ul className="hero-points list-unstyled mb-4">
-              <li data-aos="zoom-in">✅ تصميم متجاوب وسريع</li>
-              <li data-aos="zoom-in">✅ منيو إلكتروني قابل للطلب</li>
-              <li data-aos="zoom-in">✅ تسليم سريع وأسعار مناسبة</li>
+              <li data-aos="zoom-in">✅ مواقع وتطبيقات سريعة واحترافية</li>
+              <li data-aos="zoom-in">✅ أسعار مرنة تناسب كل الميزانيات</li>
+              <li data-aos="zoom-in">✅ استلم شغلك في وقت قياسي</li>
             </ul>
             <div className="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
               <Link

@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import FAQ from "./pages/FAQ";
-import Plans from "./pages/Plans";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,7 +21,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/plans" element={<Plans />} />
       </Routes>
       <Footer />
     </>

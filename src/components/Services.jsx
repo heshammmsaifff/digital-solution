@@ -18,11 +18,7 @@ const servicesList = [
     title: "مواقع تعريفية لفريلانسرز ومصورين",
     description: "عرض خدماتك وأعمالك بشكل جذاب على موقع شخصي متجاوب",
   },
-  {
-    icon: "fas fa-mobile-alt",
-    title: "تطبيقات موبايل",
-    description: "برمجة تطبيقات Android و iOS حسب طلبك باستخدام أحدث التقنيات",
-  },
+
   {
     icon: "fas fa-utensils",
     title: "منيو إلكتروني تفاعلي",
@@ -44,11 +40,6 @@ const servicesList = [
     icon: "fas fa-headset",
     title: "دعم فني للشركات",
     description: "حلول سريعة للمشاكل التقنية ودعم مستمر للمواقع والتطبيقات",
-  },
-  {
-    icon: "fas fa-bolt",
-    title: "خدمات جاهزة وسريعة",
-    description: "مثال: تصميم موقع تعريفي بـ 3 صفحات خلال 5 أيام بسعر ثابت",
   },
 ];
 

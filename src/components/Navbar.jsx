@@ -40,11 +40,6 @@ const Navbar = () => {
 
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/plans">
-              باقات الأسعار
-            </Link>
-          </li>
-          <li className="nav-item">
             <Link className="nav-link" to="/faq">
               الأسئلة الشائعة
             </Link>

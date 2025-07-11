@@ -27,6 +27,17 @@ const Contact = () => {
         >
           تواصل عبر واتساب
         </a>
+        <br />
+        <br />
+        <a
+          data-aos="zoom-in"
+          href="https://www.facebook.com/people/Sprint-Code-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%88-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%85%D9%88%D8%A7%D9%82%D8%B9/61578134993287/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary btn-lg"
+        >
+          تابعنا على فيسبوك
+        </a>
 
         <div className="mt-4">
           <p className="small text-muted" dir="rtl" data-aos="fade-in">

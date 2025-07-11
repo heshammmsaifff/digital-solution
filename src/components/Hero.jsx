@@ -34,13 +34,6 @@ const Hero = () => {
               >
                 الأسئلة الشائعة
               </Link>
-              <Link
-                data-aos="fade-up"
-                to="/plans"
-                className="btn btn-outline-light btn-lg"
-              >
-                باقات الأسعار
-              </Link>
             </div>
             <br />
 
